@@ -108,7 +108,7 @@ write.table(as.matrix(predictions), file="DNN_pred.csv", row.names=FALSE, sep=",
 ```
 &nbsp;
 
-### Kaggle Sumission Result & Conclusion
+### Kaggle Submission Result & Conclusion
 
 When I submitted the csv to Kaggle, I received a result of **96.2%** on the leaderboard (which is calculated on 25% of the test data). Initially I was a little disappointed in this result, until I realized the models benchmarked on Yann Lecun's site were trained with almost 50% more data. If I were to spend more time to increase the accuracy of the model, I would try ensembling, increasing the size of the data set by a factor of five through shifting each image by one pixel in all four directions, adding convolution, and tuning the neuron architecture.
 \
